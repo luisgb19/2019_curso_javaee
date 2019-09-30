@@ -14,7 +14,7 @@
 <th>Edad</th>
 </tr>
 <%
-	DaoContactosImp dao=new DaoContactosImp();
+	DaoContactos dao=new DaoContactos();
 
 List<Contacto> lista = dao.mostrarContactos();
 
