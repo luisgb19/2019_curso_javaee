@@ -17,7 +17,7 @@
 </tr>
 <c:set var="lista" value="${requestScope.contactos}"/>
 
-<c:forEach var="contacto" items="${lista}}">
+<c:forEach var="contacto" items="${lista}">
 	<tr><td><a href="Controller?op=doEliminar&id=${contacto.idContacto}%>">Eliminar</a>	
 	</td><td>
 	%{contacto.nombre}
